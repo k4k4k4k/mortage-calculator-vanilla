@@ -6,10 +6,6 @@ h2 {
 label {
   display: block;
 }
-/* 
-input {
-  display: block;
-} */
 
 .row {
   margin-bottom: 5px;
@@ -21,4 +17,27 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: pink;
+}
+
+button, fieldset{
+  border: 1px solid red;
+  border-radius: 2px;
+  background: lightpink;
+  color: white;
+}
+
+input {
+  border: 0px;
+  border-radius: 3px;
+  outline: none;
+  color: red
+}
+
+fieldset {
+  border: 2px solid red;
+}
+
+button {
+  background-color: red;
 }

@@ -11,16 +11,21 @@
           <legend><b>Mortgage calculator</b></legend>
           <div class="row">
             <label for="loan">Principal loan</label>
-            <input id="loan" required inputmode="numeric" pattern="[0-9]*" />
+            <input
+              id="loan"
+              inputmode="numeric"
+              pattern="[0-9]*"
+              autocomplete="off"
+            />
           </div>
 
           <div class="row">
             <label for="rate">Interest Rate</label>
             <input
               id="rate"
-              required
               inputmode="decimal"
               pattern="[0-9]*.?[0-9]*"
+              autocomplete="off"
             />
             %
           </div>
@@ -29,9 +34,9 @@
             <label for="loanLength">Loan length</label>
             <input
               id="loanLength"
-              required
               inputmode="numeric"
               pattern="[0-9]*"
+              autocomplete="off"
             />
             years
           </div>
