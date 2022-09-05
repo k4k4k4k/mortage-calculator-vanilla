@@ -1,0 +1,16 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+label {
+  display: block;
+}
+/* 
+input {
+  display: block;
+} */
+
+.row {
+  margin-bottom: 5px;
+}
